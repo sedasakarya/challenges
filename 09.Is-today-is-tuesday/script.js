@@ -7,6 +7,8 @@ today === 3 ? console.log("TRUE") : console.log("FALSE");
 
 //OR 
 
-let day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-day === day[3] ? console.log("TRUE") : console.log("FALSE");
-console.log(day[2]);
+let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let day = days[2];
+day === days[2] ? console.log("TRUE") : console.log("FALSE");
+
+
